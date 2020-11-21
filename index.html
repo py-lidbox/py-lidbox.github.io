@@ -5,20 +5,37 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>lidbox examples</title>
-    <link href="main.css" rel="stylesheet">
-    <script src="main.js"></script>
   </head>
 
   <body>
-    <h1>lidbox example notebooks</h1>
-    <ul>
-      <li>
-        <a href="./common-voice-small/main.html">Common Voice with 4 languages</a>
-      </li>
-      <li>
-        <a href="./common-voice-augmenting/main.html">Randomized audio augmentation</a>
-      </li>
-    </ul>
+    <h1>Example notebooks using <code>lidbox</code></h1>
+<table>
+<thead><tr>
+<th style="text-align:left">Notebook as HTML</th>
+<th style="text-align:left">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left"><a href="./common-voice-small/main.html"><code>common-voice-small</code></a></td>
+<td style="text-align:left">Classifying 4 languages from the Mozilla Common Voice dataset</td>
+</tr>
+<tr>
+<td style="text-align:left"><a href="./common-voice-augmenting/main.html"><code>common-voice-augmenting</code></a></td>
+<td style="text-align:left">Repeating example 1 with speech data augmentation</td>
+</tr>
+<tr>
+<td style="text-align:left"><a href="./common-voice-embeddings/main.html"><code>common-voice-embeddings</code></a></td>
+<td style="text-align:left">Using the trained model from example 2 as a language vector extractor for a back-end classifier</td>
+</tr>
+<tr>
+<td style="text-align:left"><a href="./common-voice-angular-lstm/main.html"><code>common-voice-angular-lstm</code></a></td>
+<td style="text-align:left">Training a language vector model with a dedicated, angular proximity loss function to maximize distance between vectors from different languages</td>
+</tr>
+</tbody>
+</table>
+
   </body>
 
 </html>
+
